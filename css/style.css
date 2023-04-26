@@ -19,7 +19,7 @@ nav {
 section.contents {
     width: calc(100% - 300px);
     height: calc(100vh - 100px);
-    background-color: lime;
+    background-color: #141922;
 
 }
 
@@ -28,3 +28,36 @@ header {
     width: 100%;
     background-color: blue;
 }
+
+div.button {
+
+    justify-content: end;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+
+div.list {
+
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+    
+}
+
+
+div.small-box {
+
+    height: 200px;
+    width: calc(100% / 6 - 2rem);
+    background-color: crimson;
+
+    margin-right: 2rem;
+    
+}
+
+section.albums {
+
+    padding: 20px;
+}
+
