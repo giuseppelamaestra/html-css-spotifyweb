@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+nav {
+
+    height: calc(100vh - 100px);
+    width: 300px;
+    background-color: magenta;
+
+}
+
+section.contents {
+    width: calc(100% - 300px);
+    height: calc(100vh - 100px);
+    background-color: lime;
+
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+}
