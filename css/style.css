@@ -6,6 +6,7 @@
 
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 nav {
@@ -20,6 +21,7 @@ section.contents {
     width: calc(100% - 300px);
     height: calc(100vh - 100px);
     background-color: #141922;
+    overflow: scroll;
 
 }
 
@@ -61,3 +63,14 @@ section.albums {
     padding: 20px;
 }
 
+section.albums h2 {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+div.h2 {
+    width: 100%;
+    
+}
