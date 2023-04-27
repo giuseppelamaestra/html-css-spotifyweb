@@ -20,6 +20,8 @@ nav {
     width: 200px;
     background-color: black;
     padding: 1rem;
+    color: white;
+   
 
 }
 
@@ -37,6 +39,18 @@ ul {
     list-style-type: none;
     color: lightgray;
     margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+nav ul li {
+
+    margin-top: .5rem;
+}
+
+nav h3 {
+    font-size: .8rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -44,10 +58,16 @@ ul {
 div.footer {
 
     width: 100%;
-    height: 200px;
-    background-color: red;
+   
+    
     align-self: flex-end;
+   
+   
+
+    
 }
+
+
 
 
 
