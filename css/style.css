@@ -21,6 +21,7 @@ nav {
     background-color: black;
     padding: 1rem;
     color: white;
+    overflow: auto;
    
 
 }
@@ -58,7 +59,7 @@ nav h3 {
 div.footer {
 
     width: 100%;
-   
+    
     
     align-self: flex-end;
    
@@ -82,7 +83,9 @@ section.contents {
 footer {
     height: 100px;
     width: 100%;
-    background-color: blue;
+    background-color: #282828;
+    color: white;
+    
 }
 
 div.button {
@@ -97,7 +100,7 @@ div.list {
 
     height: 50px;
     width: 100%;
-    background-color: blueviolet;
+   
     
 }
 
@@ -110,6 +113,14 @@ div.small-box {
 
     margin-right: 2rem;
     margin-top: 20px;
+    
+}
+
+
+div.round-box img {
+    width: 100%;
+    border-radius: 50%;
+
     
 }
 
@@ -140,7 +151,7 @@ div.round-box {
 
     height: 180px;
     width: 180px;
-    background-color: red;
+   
     border-radius: 50%;
     margin-right: 2rem;
     margin-top: 2rem;
@@ -150,8 +161,25 @@ div.third-box {
 
     height: 100%;
     width: 20%;
-    background-color: green;
+    padding: 1rem;
 }
+
+div.third-box img {
+    height: 100%;
+    margin-right: .3rem;
+}
+
+div.brano-box {
+
+    padding: 1rem;
+}
+
+div.heart-folder {
+    align-items: center;
+}
+
+
+
 
 
 @media screen and (max-width: 992px) {
