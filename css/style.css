@@ -55,13 +55,19 @@ div.list {
 
 div.small-box {
 
-    height: 200px;
+    
     width: calc(100% / 6 - 2rem);
-    background-color: crimson;
+   
 
     margin-right: 2rem;
     margin-top: 20px;
     
+}
+
+
+div.small-box img {
+
+    width: 100%;
 }
 
 section.albums {
@@ -99,7 +105,7 @@ div.third-box {
 }
 
 
-@media screen and (max-width: 878px) {
+@media screen and (max-width: 992px) {
 
     div.small-box {
         width: calc(100% / 4 - 2rem);
@@ -108,12 +114,21 @@ div.third-box {
 }
 
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 768px) {
 
     div.small-box {
         width: calc(100% / 2 - 2rem);
     }
     
+  
+
+  
+
+}
+
+
+@media screen and (max-width: 576px) {
+
     nav {
         width: 100px;
     }
@@ -122,5 +137,7 @@ div.third-box {
         width: calc(100% - 100px);
 
     }
+
+   
 
 }
