@@ -48,8 +48,15 @@ ul {
     color: lightgray;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    justify-content: center;
     
 }
+
+li.header-element {
+    margin-right: 1rem;
+    color:lightgray;
+}
+
 
 
 nav ul li {
