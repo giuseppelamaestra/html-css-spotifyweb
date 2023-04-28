@@ -345,4 +345,14 @@ div.third-box i {
         display: none;
     }
 
+    div.logo-content img {
+        width: 70%;
+        margin-top: 1rem;
+    }
+     
+    nav ul {
+        display: none;
+    }
+     
+
 }
