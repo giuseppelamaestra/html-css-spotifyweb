@@ -41,6 +41,7 @@ ul {
     color: lightgray;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    
 }
 
 
@@ -160,7 +161,7 @@ div.round-box {
 div.third-box {
 
     height: 100%;
-    width: 20%;
+    width: calc(100% / 3);
     padding: 1rem;
 }
 
@@ -176,9 +177,40 @@ div.brano-box {
 
 div.heart-folder {
     align-items: center;
+
+}
+
+section.player {
+    height: 50%;
+    align-items: center;
+}
+
+section.music-time {
+    height: 50%;
+    align-items: center;
+}
+
+section.player i {
+    margin-right: 1rem;
 }
 
 
+
+div.music-bar {
+    width: calc(80% - 2rem);
+    height: 5px;
+    background-color: lightgray;
+    border-radius: 3px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+div.music-current-state {
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    border-radius: 3px;
+}
 
 
 
